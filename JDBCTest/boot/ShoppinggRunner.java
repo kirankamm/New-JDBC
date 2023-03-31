@@ -46,6 +46,9 @@ public class ShoppinggRunner {
 		System.out.println("update start--------");
 		shoppinggService.UpdateDTO2("belagavi");
 		System.out.println("update end-----------");
+		
+		shoppinggService.DeleteDTO(33);
+		shoppinggService.DeleteDTO1(2);
 	}
 
 }
